@@ -5,7 +5,7 @@ Home: http://github.com/mariobuikhuizen/ipyvue
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Jupyter widgets base for Vue libraries
 
