@@ -1,11 +1,11 @@
-About ipyvue
-============
+About ipyvue-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipyvue-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/mariobuikhuizen/ipyvue
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ipyvue-feedstock/blob/main/LICENSE.txt)
 
 Summary: Jupyter widgets base for Vue libraries
 
