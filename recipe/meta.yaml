@@ -1,5 +1,5 @@
 {% set name = "ipyvue" %}
-{% set version = "1.10.1" %}
+{% set version = "1.10.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 20615ce86ba516cf0b7aad84cc607e4e2c9104232e954cd0eccbf33530a5e1d4
+  sha256: a9973586fa2e296510d9a24b935a22a2450acca057b5de9f0bab66ecb1c33ab4
 
 build:
   noarch: python
