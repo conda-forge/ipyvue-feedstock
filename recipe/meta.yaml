@@ -11,19 +11,21 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - setuptools
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - ipywidgets >=7.0.0
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - ipyvue
 
